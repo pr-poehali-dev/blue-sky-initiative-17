@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Явления
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Ключевые феномены цифровой культуры</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Интернет-мемы",
+              description: "84% молодёжи считают мемы важной частью онлайн-общения и способом выражения эмоций",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Цифровая грамотность",
+              description: "91% респондентов считают важным соблюдение правил поведения и этики в сети",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Дезинформация",
+              description: "64% пользователей обеспокоены распространением фейков и недостоверного контента",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Пользовательский контент",
+              description: "76% готовы создавать и публиковать собственный контент — мемы, видео, тексты",
               direction: "bottom",
             },
           ].map((service, i) => (
